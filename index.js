@@ -27,7 +27,7 @@ const pm2 = require("pm2")
 const sanity = require("@sanity/client")
 const imageUrlBuilder = require("@sanity/image-url")
 const client = sanity({
-  projectId: process.env.SANITY_PRODUCT_ID,
+  projectId: process.env.SANITY_PROJECT_ID,
   dataset: "production",
   token:
     process.env.SANITY_TOKEN,
